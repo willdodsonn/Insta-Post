@@ -3,14 +3,16 @@ body{
 }
 .box{
     background-color:white;
-    
-    width: 450px;
+    height: 550px;
+    width: 400px;
     margin: auto;
+    margin-top: 55px;
     margin-bottom: 55px;
     border: 1px solid rgb(226, 226, 226);
     
 }
 .box .header .date{
+    padding-top: 15px;
     float: right;
     background-color: transparent;
     color: lightgray;
@@ -19,4 +21,16 @@ body{
 
 img{
     width: 100%;
+}
+
+.dscrp{
+font-size: small;
+padding: 5px 2px 3px 2px;
+}
+.liked{
+    font-size: small;
+}
+
+.icons{
+    display: flex;
 }
