@@ -2,35 +2,13 @@ body{
     background-color: black;
 }
 .box{
-    background-color:white;
-    height: 550px;
-    width: 400px;
+    background:white;
+    width: 450px;
     margin: auto;
-    margin-top: 55px;
     margin-bottom: 55px;
     border: 1px solid rgb(226, 226, 226);
-    
+    border-radius: 8px;
 }
-.box .header .date{
-    padding-top: 15px;
-    float: right;
-    background-color: transparent;
-    color: lightgray;
-    margin: 0;
-}
-
 img{
     width: 100%;
-}
-
-.dscrp{
-font-size: small;
-padding: 5px 2px 3px 2px;
-}
-.liked{
-    font-size: small;
-}
-
-.icons{
-    display: flex;
 }
