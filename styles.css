@@ -7,8 +7,48 @@ body{
     margin: auto;
     margin-bottom: 55px;
     border: 1px solid rgb(226, 226, 226);
-    border-radius: 8px;
+    border-radius: 2px;
+    height: 550px;
 }
 img{
     width: 100%;
+}
+
+.box .header .date{
+    float: right;
+    margin: 0;
+}
+h2{
+    padding-left: 10px;
+    margin: auto;
+    font-size:medium;
+    position: relative; 
+    left:20px; 
+    bottom:32px;
+    
+}
+.html5{
+    padding-top: 10px;
+}
+.place{
+    padding-left: 10px;
+    margin: auto;
+    font-size:small;
+    position: relative; 
+    left: 20px; 
+    bottom:32px;
+    font-weight: none;
+    color: gray;
+    font-family:'Times New Roman', Times, serif
+}
+.header{
+    height: 55px;
+    padding-left: 5px;
+    
+   
+}
+.date{
+    padding-top: 10px;
+    padding-right: 10px;
+    
 }
