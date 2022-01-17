@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@600&display=swap');
+
 body{
     background-color: black;
+   
 }
 .box{
+    font-family: 'Roboto', sans-serif;
     background:white;
     width: 450px;
     margin: auto;
     margin-bottom: 55px;
     border: 1px solid rgb(226, 226, 226);
-    border-radius: 2px;
-    height: 550px;
+    border-radius: 4px;
+    height: 570px;
 }
 img{
     width: 100%;
@@ -48,7 +52,34 @@ h2{
    
 }
 .date{
-    padding-top: 10px;
+    padding-top: 15px;
     padding-right: 10px;
     
+}
+
+.logos{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.heart{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.comment{
+    padding-right: 8px;
+}
+.saved{
+    padding-left: 290px;
+}
+
+.dscrp{
+    font-size: medium;
+    padding-left: 10px;
+}
+.lorem{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
 }
